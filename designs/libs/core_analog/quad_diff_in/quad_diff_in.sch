@@ -73,9 +73,9 @@ N 680 -540 740 -540 {lab=vdd}
 N 680 -20 740 -20 {lab=gnd}
 N 160 -250 170 -250 {lab=vinp}
 N 660 -90 660 -20 {lab=gnd}
-N 560 -90 600 -90 {lab=#net5}
+N 560 -90 600 -90 {lab=Mref_sink}
 C {iopin.sym} 40 -540 2 0 {name=p1 lab=vdd}
-C {iopin.sym} 40 -20 0 1 {name=p2 lab=gnd}
+C {iopin.sym} 40 -20 0 1 {name=p2 lab=vss}
 C {ipin.sym} -10 -250 0 0 {name=p3 lab=vinp}
 C {ipin.sym} 700 -250 0 1 {name=p4 lab=vinn}
 C {symbols/nfet_03v3.sym} 200 -250 0 0 {name=M1
